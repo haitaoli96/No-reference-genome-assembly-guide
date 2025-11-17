@@ -1,0 +1,7 @@
+安装 KrakenTools（提取读段用）
+# 下载并放到当前环境的可执行路径
+git clone https://github.com/jenniferlu717/KrakenTools.git
+# 建议把脚本目录加入 PATH（写入 ~/.bashrc 或当前会话）
+export PATH="$PWD/KrakenTools:$PATH"
+# 测试
+which extract_kraken_reads.py
