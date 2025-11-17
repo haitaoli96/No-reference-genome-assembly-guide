@@ -1,0 +1,28 @@
+#####################使用方法#######################
+#conda env create -f genome-spades-bowtie-dedupe.yml
+#conda genome-spades-bowtie-dedupe
+
+
+name: genome-spades-bowtie-dedupe
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - fastp
+  - fastqc
+  - multiqc
+  - bowtie2
+  - kraken2
+  - jellyfish
+  - bwa
+  - samtools
+  - spades
+  - pilon
+  - openjdk=17
+  - quast
+  - pigz
+  - parallel
+  - bbmap            # ← 包含 dedupe.sh
+  - busco            # ← BUSCO v5，lineage: cnidaria_odb10
