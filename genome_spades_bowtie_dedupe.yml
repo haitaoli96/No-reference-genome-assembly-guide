@@ -23,6 +23,7 @@ dependencies:
   - openjdk=17
   - quast
   - pigz
+  - github
   - parallel
   - bbmap            # ← 包含 dedupe.sh
   - busco            # ← BUSCO v5，lineage: cnidaria_odb10
